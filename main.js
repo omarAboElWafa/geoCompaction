@@ -12,7 +12,7 @@ function createWindow() {
     icon: __dirname+'/img/icon.jpg'
   })
 
-  mainWindow.loadURL(`file://${__dirname}/index.html`)
+  mainWindow.loadURL(`file://${__dirname}/pages/index.html`)
 
   mainWindow.webContents.openDevTools()
 
